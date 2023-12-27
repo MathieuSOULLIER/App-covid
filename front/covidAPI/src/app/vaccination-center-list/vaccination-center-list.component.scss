@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    width: fit-content;
+}
+li{
+    list-style: none;
+    width: 50vw;
+    height: auto;
+    margin-bottom: 2vh;
+    background-color:#f5f5f5;
+    box-shadow: 0px 0px 2px black;
+    border-radius: min(1vh,0.5vw);
+    display: flex;
+    justify-content: space-between;
+}
+.infoCentre{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+}
+button{
+    transition: 0.2s;
+    cursor: pointer;
+    z-index: 0;
+}
+button:hover{
+    transition: 0.2s;
+    background-color: #000091;
+}
+.icon{
+    color:#000091;
+    margin-right: 0.5vw;
+}
+.containChoice{
+    display: flex;
+    align-items: flex-end;
+    padding: 1vw;
+
+}

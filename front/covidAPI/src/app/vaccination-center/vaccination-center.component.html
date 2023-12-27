@@ -1,0 +1,16 @@
+<div class="detail" *ngIf="centre">
+    <h2 [ngStyle]="{'font-weight' : isSpecialcentre(centre) ? 'bold' : 'normal'}" [title]="centre.nom">{{centre.nom}}</h2>
+    <div>{{centre.adresse}}
+            <span>{{centre.ville}}</span>
+            <span>{{centre.codePostal}}</span>
+            <span>{{centre.heurOuverture}}h - {{centre.heurFermeture}}h</span>
+    </div>
+    <div>
+        <label for="nom">Nom du centre: </label>
+        <input id="nom" [(ngModel)]="centre.nom" />
+        <div *ngIf="isNameNotEmpty()">
+             <button (click)="clearNom()" >Clear Name</button>
+             <button (click)="delete()" >Supprimer</button>
+        </div>
+    </div>
+</div>

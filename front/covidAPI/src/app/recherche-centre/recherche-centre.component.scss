@@ -1,0 +1,33 @@
+.searchCenter{
+    border-radius: max(100vw,100vh);
+    height: 5vh;
+    width: 38vw;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 0px;
+    padding-left: 2vw;
+}
+button{
+    border-radius: max(100vh,100vw);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    background-color: #000091;
+    height: 5vh;
+    width: 5vh;
+    border: none;
+    box-shadow: 2px 1px 4px black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover{
+       transition: 0.2s;
+       box-shadow: 3px 2px 6px black;
+}
+button:active{
+    transition: 0.2s;
+    background-color: #0000ce;
+}

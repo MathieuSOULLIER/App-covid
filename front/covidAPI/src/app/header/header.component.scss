@@ -1,0 +1,29 @@
+.headerContainer{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+}
+.btnConnexion{
+    max-height: 90%;
+    cursor: pointer;
+}
+.headerContainer .blue{
+   
+    background: linear-gradient(to right, #000091 70%, #6262d1 85%, #ffffff 100%);
+    width: 80%;
+    flex-grow: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+}
+.headerContainer .red{
+    background-color: #E1000F;
+    background: linear-gradient(to right, #ffffff 0%, #cd5860 45%, #E1000F 90%); 
+    width: 15%;
+    height: 100%;
+    flex-grow: 1;
+}
+
+
+
